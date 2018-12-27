@@ -1,0 +1,12 @@
+<div class="container">
+  <mat-toolbar>
+    <span class="fill-remaining-space"></span>
+    <span>Menu principal - {{ user.name }}</span>
+    <button mat-button matSuffix mat-icon-button aria-label="Clear" (click)="onSalir()">
+      <mat-icon>logout</mat-icon>
+    </button>
+    <span class="fill-remaining-space"></span>
+  </mat-toolbar>
+  <!--<app-employ></app-employ>-->
+  <app-employ-list></app-employ-list>
+</div>
